@@ -6,5 +6,14 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "matplotlib",
+    "POT",
     "pillow",
+    "torch>=2.14.1",
+    "geomloss>=0.3.1",
+    "huggingface-hub>=2.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
 ]

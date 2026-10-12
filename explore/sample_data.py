@@ -3,7 +3,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 from PIL import Image
 
-png_dir = "/Users/bc/bcdata_warm/library/respectful_mirror/visual_poetry"
+png_dir = "/Users/bc/bcdata_warm/library/respectful_mirror/visual_poetry/pngs_singlepage"
 
 # Get all PNG files
 png_files = list(Path(png_dir).glob("*.png"))
